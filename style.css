@@ -112,21 +112,21 @@ a {
 	width: 1145px;
 	height: 550px;
 	@extend .project;
-	background-image: url(images/project1.png);
+	background-image: url(../images/project1.png);
 	background-repeat: no-repeat;
 }
 .project2 {
 	width: 1145px;
 	height: 550px;
 	@extend .project;
-	background-image: url(images/project2.png);
+	background-image: url(../images/project2.png);
 	background-repeat: no-repeat;
 }
 .project3 {
 	width: 1145px;
 	height: 550px;
 	@extend .project;
-	background-image: url(images/project3.png);
+	background-image: url(../images/project3.png);
 	background-repeat: no-repeat;
 }
 
@@ -239,7 +239,7 @@ a {
 }
 .development-description {
 	margin-left: 125px;
-	background-image: url(images/fon.png);
+	background-image: url(../images/fon.png);
 	background-repeat: no-repeat;
 	width: 1150px;
 	height: 283px;
