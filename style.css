@@ -1,0 +1,343 @@
+.body {
+	margin: 0 auto;
+	width: 100%;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 1400px;
+
+	background-color: #000000;
+}
+a {
+	text-decoration: none;
+}
+.header {
+	padding-top: 35px;
+	margin-left: 125px;
+	margin-bottom: 242px;
+	width: 1153px;
+	height: 55px;
+}
+
+.orlov {
+	padding-left: 7px;
+	width: auto;
+	color: #1bff07;
+	font-size: 42.41px;
+	font-family: IBM Plex Mono;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-image: url(../images/orlov_under.png);
+	background-repeat: no-repeat;
+	letter-spacing: -3px;
+}
+.menu {
+	height: 23px;
+	text-align: right;
+	margin-top: -40px;
+}
+
+.menu1:hover {
+	color: #1bff07;
+}
+
+.menu1 {
+	display: inline-block;
+	margin-left: 15px;
+	text-align: right;
+	width: 114px;
+	height: 29px;
+	color: white;
+	font-size: 18px;
+	font-family: IBM Plex Mono;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.chelik {
+	margin-bottom: 160px;
+	width: 1400;
+	height: 765px;
+	background-image: url(../images/chelik.png);
+}
+.chelik-text {
+	margin-left: 125px;
+	width: 430px;
+	height: 103px;
+	color: white;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: IBM Plex Mono;
+	line-height: 27px;
+	padding-bottom: 30px;
+	letter-spacing: -0.5px;
+}
+.chelik-hello {
+	margin-left: 125px;
+	width: 919px;
+	height: 205px;
+	color: #1bff07;
+	font-size: 80px;
+	font-family: IBM Plex Mono;
+	font-weight: 400;
+	line-height: 70px;
+	letter-spacing: -3px;
+}
+.projects {
+	margin-left: 125px;
+	width: 1155px;
+	margin-bottom: 160px;
+}
+.text-projects {
+	margin-bottom: 30px;
+	width: 1048px;
+	height: 72px;
+	color: white;
+	font-size: 55px;
+	font-family: IBM Plex Mono;
+	font-weight: 400;
+	letter-spacing: -1.75px;
+}
+
+.project {
+	margin-bottom: 80px;
+	margin-top: 0px;
+	color: white;
+	font-family: IBM Plex Mono;
+	font-size: 30px;
+}
+.project1 {
+	width: 1145px;
+	height: 550px;
+	@extend .project;
+	background-image: url(../images/project1.png);
+	background-repeat: no-repeat;
+}
+.project2 {
+	width: 1145px;
+	height: 550px;
+	@extend .project;
+	background-image: url(../images/project2.png);
+	background-repeat: no-repeat;
+}
+.project3 {
+	width: 1145px;
+	height: 550px;
+	@extend .project;
+	background-image: url(../images/project3.png);
+	background-repeat: no-repeat;
+}
+
+.project h2 {
+	padding-top: 420px;
+	padding-bottom: 18px;
+	padding-left: 50px;
+	letter-spacing: 2.4px;
+}
+.project p {
+	padding-left: 50px;
+
+	letter-spacing: -1px;
+}
+.button {
+	width: 582px;
+	height: 153px;
+	background: #1bff07;
+	border-radius: 10px;
+	text-align: center;
+	color: black;
+	font-size: 30px;
+	font-family: IBM Plex Mono;
+	font-weight: 400;
+	letter-spacing: -1px;
+}
+.button:hover {
+	background: black;
+	color: #1bff07;
+	border: 1px #1bff07 solid;
+}
+.competenciens {
+	margin-left: 125px;
+	width: 1048px;
+	height: 1377px;
+	margin-bottom: 146px;
+}
+
+.text-comp {
+	margin-bottom: 54px;
+	width: 1048px;
+	color: white;
+	font-size: 55px;
+	font-family: IBM Plex Mono;
+	font-weight: 400;
+	letter-spacing: -2px;
+}
+.img {
+	width: 45px;
+	height: 44px;
+
+	padding-left: 11px;
+	padding-right: 10px;
+	background: #1bff07;
+	border-radius: 10px;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	display: inline-flex;
+	/* width: 24px; height: 22.15px; background: white; border: 0.20px white solid; */
+}
+.competencien {
+	margin-top: 12px;
+	margin-bottom: 60px;
+	width: 1048px;
+}
+.competencien h2 {
+	margin-top: 15px;
+	margin-bottom: 26px;
+	width: 720px;
+	color: #1bff07;
+	font-size: 35px;
+	font-family: IBM Plex Mono;
+	font-weight: 400;
+	letter-spacing: -1px;
+}
+.competencien p {
+	width: 778px;
+	color: white;
+	font-size: 22px;
+	font-family: IBM Plex Mono;
+	font-weight: 400;
+	letter-spacing: 1.9px;
+}
+.help {
+	margin-left: 125px;
+	padding-bottom: 78px;
+	width: 403px;
+	color: white;
+	font-size: 35px;
+	font-family: IBM Plex Mono;
+	font-weight: 400;
+	letter-spacing: -1px;
+	line-height: 40px;
+}
+
+.development-picture {
+	margin-left: 125px;
+	width: 1150px;
+	height: 200px;
+}
+.development-frame-description1 {
+	margin-bottom: 74px;
+}
+.development-frame-description2 {
+	margin-bottom: 137px;
+}
+.development-frame-description3 {
+	margin-bottom: 150px;
+}
+.development-description {
+	margin-left: 125px;
+	background-image: url(../images/fon.png);
+	background-repeat: no-repeat;
+	width: 1150px;
+	height: 283px;
+	background: #191c19;
+	border-radius: 30px;
+}
+.development-description:hover {
+	opacity: 0.3;
+}
+
+.development-description h2 {
+	margin-left: 40px;
+	padding-bottom: 15px;
+	padding-top: 55px;
+	color: #1bff07;
+	font-size: 55px;
+	font-family: IBM Plex Mono;
+	font-weight: 400;
+	letter-spacing: -1.8px;
+}
+.development-description p {
+	width: 749px;
+	margin-left: 40px;
+	color: white;
+	font-size: 22px;
+	font-family: IBM Plex Mono;
+	font-weight: 400;
+	line-height: 32px;
+	letter-spacing: -0.8px;
+}
+.contacts {
+	width: 1400px;
+	height: 717px;
+	background: #191c19;
+	border-radius: 30px;
+	margin-bottom: 150px;
+}
+
+.frame-contacts-picture {
+	display: flex;
+	justify-content: space-between;
+	border-radius: 30px;
+}
+.contact {
+	margin-left: 125px;
+	padding-top: 335px;
+	width: 310px;
+	height: 308px;
+	letter-spacing: -1.1px;
+}
+.contact h4 {
+	margin-bottom: 30px;
+	color: white;
+	font-size: 35px;
+	font-family: IBM Plex Mono;
+	font-weight: 400;
+}
+.contact p {
+	color: white;
+	font-size: 60px;
+	font-family: IBM Plex Mono;
+	font-weight: 400;
+	line-height: 80px;
+}
+.picture {
+	background-repeat: no-repeat;
+	text-align: right;
+	height: 100%;
+	width: auto;
+	border-radius: 30px;
+	overflow: hidden;
+}
+.allright {
+	flex: 0 0 auto;
+	width: 1400px;
+	background: white;
+	border-radius: 30px 30px 0 0;
+	object-fit: cover;
+}
+
+.allright h3 {
+	margin-left: 125px;
+	padding-top: 82px;
+	padding-bottom: 73px;
+	color: black;
+	font-size: 22px;
+	font-family: Manrope;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.allright p {
+	margin-left: 125px;
+	padding-bottom: 20px;
+	opacity: 0.5;
+	color: black;
+	font-size: 20px;
+	font-family: Manrope;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+}
