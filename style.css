@@ -29,7 +29,7 @@ a {
 	font-family: IBM Plex Mono;
 	font-weight: 700;
 	text-transform: uppercase;
-	background-image: url(../images/orlov_under.png);
+	background-image: url(images/orlov_under.png);
 	background-repeat: no-repeat;
 	letter-spacing: -3px;
 }
@@ -60,7 +60,7 @@ a {
 	margin-bottom: 160px;
 	width: 1400;
 	height: 765px;
-	background-image: url(../images/chelik.jpg);
+	background-image: url(images/chelik.jpg);
 }
 .chelik-text {
 	margin-left: 125px;
@@ -112,21 +112,21 @@ a {
 	width: 1145px;
 	height: 550px;
 	@extend .project;
-	background-image: url(../images/project1.png);
+	background-image: url(images/project1.png);
 	background-repeat: no-repeat;
 }
 .project2 {
 	width: 1145px;
 	height: 550px;
 	@extend .project;
-	background-image: url(../images/project2.png);
+	background-image: url(images/project2.png);
 	background-repeat: no-repeat;
 }
 .project3 {
 	width: 1145px;
 	height: 550px;
 	@extend .project;
-	background-image: url(../images/project3.png);
+	background-image: url(images/project3.png);
 	background-repeat: no-repeat;
 }
 
@@ -152,6 +152,7 @@ a {
 	font-family: IBM Plex Mono;
 	font-weight: 400;
 	letter-spacing: -1px;
+	border: 1px black solid;
 }
 .button:hover {
 	background: black;
@@ -239,7 +240,7 @@ a {
 }
 .development-description {
 	margin-left: 125px;
-	background-image: url(../images/fon.png);
+	background-image: url(images/fon.png);
 	background-repeat: no-repeat;
 	width: 1150px;
 	height: 283px;
